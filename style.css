@@ -18,15 +18,16 @@
 
 body {
   background: var(--very-dark-blue);
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  overflow-y: hidden;
 }
 
 .rate-box {
-  height: 50vh;
+  height: 40vh;
   width: 90%;
   background: var(--dark-blue);
   border-radius: 20px;
@@ -40,8 +41,8 @@ body {
   background: var(--dark-grey);
   padding: .5rem;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,12 +57,12 @@ body {
 
 .rate-box p,
 .note {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .rate-box h1 {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 25px;
   color: var(--white);
 }
 
@@ -181,7 +182,7 @@ body {
   .rate-box p,
   .rate-box h1,
   .note {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
   }
 
   .inner-submit-box.submit img,

@@ -3,10 +3,15 @@ const submit = document.querySelector('button');
 const box = document.querySelector('.inner-rate-box');
 const box2 = document.querySelector('.inner-submit-box');
 const chosen = document.querySelector('.chosen');
+const body = document.querySelector('body');
 
 function note(index) {
   chosen.innerText = index + 1;
 }
+
+console.log(window.innerHeight);
+body.style.maxHeight = window.innerHeight;
+
 
 function handleActive(event, index) {
   btn.forEach((btn) => {
