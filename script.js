@@ -9,10 +9,6 @@ function note(index) {
   chosen.innerText = index + 1;
 }
 
-console.log(window.innerHeight);
-body.style.maxHeight = window.innerHeight;
-
-
 function handleActive(event, index) {
   btn.forEach((btn) => {
     btn.classList.remove('active')
