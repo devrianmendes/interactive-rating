@@ -29,6 +29,7 @@ body {
 .rate-box {
   height: 40vh;
   width: 90%;
+  max-width: 288px;
   background: var(--dark-blue);
   border-radius: 20px;
   padding: 1.5rem;
